@@ -1,3 +1,8 @@
+:root {
+  --main: #9fd3c7;
+  --contrast: #142d4c;
+}
+
 .playfair-main {
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
@@ -6,8 +11,51 @@
   font-variation-settings: "wdth" 100;
 }
 
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
   align-items: center;
+  color: var(--contrast);
+}
+
+a {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: var(--main);
+  color: var(--contrast);
+  text-decoration: none;
+  transition: ease-in-out 100ms;
+}
+
+a:hover {
+  color: var(--main);
+  background-color: var(--contrast);
+}
+
+img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.container-about {
+  width: fit-content;
+  margin-top: 32px;
 }
