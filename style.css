@@ -36,7 +36,7 @@
   color: var(--contrast);
 }
 
-a {
+.custom-btn {
   padding: 8px 16px;
   border-radius: 5px;
   background-color: var(--main);
@@ -45,7 +45,7 @@ a {
   transition: ease-in-out 100ms;
 }
 
-a:hover {
+.custom-btn:hover {
   color: var(--main);
   background-color: var(--contrast);
 }
